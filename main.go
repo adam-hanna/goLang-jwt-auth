@@ -1,10 +1,10 @@
 package main
 
 import (
+	"goLang-jwt-auth/db"
+	"goLang-jwt-auth/server"
+	"goLang-jwt-auth/server/middleware/myJwt"
 	"log"
-	"github.com/adam-hanna/goLang-jwt-auth-example/db"
-	"github.com/adam-hanna/goLang-jwt-auth-example/server"
-	"github.com/adam-hanna/goLang-jwt-auth-example/server/middleware/myJwt"
 )
 
 var host = "localhost"
@@ -12,6 +12,7 @@ var port = "8080"
 
 func main() {
 	// init the DB
+
 	db.InitDB()
 
 	// init the JWTs

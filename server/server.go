@@ -1,9 +1,9 @@
 package server
 
 import (
+	"goLang-jwt-auth/server/middleware"
 	"log"
 	"net/http"
-	"github.com/adam-hanna/goLang-jwt-auth-example/server/middleware"
 )
 
 func StartServer(hostname string, port string) error {

@@ -2,13 +2,13 @@ package middleware
 
 import (
 	"github.com/justinas/alice"
+	"goLang-jwt-auth/db"
+	"goLang-jwt-auth/server/middleware/myJwt"
+	"goLang-jwt-auth/server/templates"
 	"log"
 	"net/http"
 	"time"
 	"strings"
-	"github.com/adam-hanna/goLang-jwt-auth-example/server/middleware/myJwt"
-	"github.com/adam-hanna/goLang-jwt-auth-example/server/templates"
-	"github.com/adam-hanna/goLang-jwt-auth-example/db"
 )
 
 func NewHandler() http.Handler {
