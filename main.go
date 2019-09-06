@@ -12,7 +12,6 @@ var port = "8080"
 
 func main() {
 	// init the DB
-
 	db.InitDB()
 
 	// init the JWTs
