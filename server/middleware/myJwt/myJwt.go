@@ -8,12 +8,12 @@ package myJwt
 
 import (
 	"crypto/rsa"
+	"goLang-jwt-auth/db"
+	"goLang-jwt-auth/db/models"
 	"io/ioutil"
 	"time"
 	"errors"
 	"log"
-	"github.com/adam-hanna/goLang-jwt-auth-example/db/models"
-	"github.com/adam-hanna/goLang-jwt-auth-example/db"
 	jwt "github.com/dgrijalva/jwt-go"
 )
 

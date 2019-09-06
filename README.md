@@ -3,7 +3,7 @@ This is an example implementation of jwt auth with goLang. Please note that I am
 
 Also, this isn't an exmaple of how to structure a web app or how to map and handle authorized / un-authorized routes, etc.
 
-FYI - I'm using [goDep](https://github.com/tools/godep)
+FYI - I'm using [Modules](https://github.com/golang/go/wiki/Modules)
 
 ## Goals
 It is important to understand the objective of this auth architecture. It certainly is not an applicable design for all use cases. Please read and understand the goals, below, and make changes to your own workflow to suit your specific needs.

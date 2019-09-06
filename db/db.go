@@ -4,8 +4,8 @@
 package db
 
 import (
-	"github.com/adam-hanna/goLang-jwt-auth-example/db/models"
-	"github.com/adam-hanna/goLang-jwt-auth-example/randomstrings"
+	"goLang-jwt-auth/db/models"
+	"goLang-jwt-auth/randomstrings"
 	"golang.org/x/crypto/bcrypt"
 	"errors"
 	"log"
